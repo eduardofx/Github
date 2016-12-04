@@ -1,1 +1,6 @@
-<?phg echo 'teste';?> 
+
+<?phg echo 'teste';
+  phpinfo();
+?>
+
+
