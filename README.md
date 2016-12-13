@@ -32,6 +32,7 @@ Commit ('-a' Commit sem dar o add)
 
 
 LOG 
+____________________________________________________
 
 Log
 > $ git log
