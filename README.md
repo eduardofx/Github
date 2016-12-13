@@ -31,7 +31,7 @@ Commit ('-a' Commit sem dar o add)
 > $ git commit -a  -m "Meu Commit"
 
 
-LOG -----------------------------------------------------
+LOG 
 
 Log
 > $ git log
@@ -56,16 +56,16 @@ Abre o editor
 > $ vim teste.php
 Ctrl + C (Comando ':wq' para salvar)
 
-Ignore ----------------------------------------------------
+Ignore 
 
 > $ vim .gitigonre
 Arquivo linha a linha > .idea
 
-Remover da lista de commit---------------------------------
+Remover da lista de commit
 
 > $ git reset HEAD teste2.txt
 
-Voltar Versão ---------------------------------------------
+Voltar Versão
 
 Pega o Hash
 > $ git log
@@ -83,7 +83,7 @@ Volta o arquivo e deixa os arquivos que estava trabalhando
 
 
 
-Branches --------------------------------------------------
+Branches 
 
 Lista os brench
 > $ git branch
@@ -95,7 +95,7 @@ Voltar para master..  '-b' cria novo brench
 
 > $ git checkout funcionalidade1
 
-Merge e Rebase -------------------------------------------	
+Merge e Rebase 	
 
 Trás os arquivos para o branch atual
 > $ git merge funcionalidade1
@@ -103,7 +103,7 @@ Trás os arquivos para o branch atual
 Elimina git merge
 >$ git rebase funcionalidade1
 
-GitHub -------------------------------------------	
+GitHub 	
 
 >$ ssh-keygen
 
@@ -118,17 +118,6 @@ Configurar git
 
 Subir no Git
 >$ git push origin master
-
->$
-
->$
-
->$
-
->$
-
->$
-
 
 
 
