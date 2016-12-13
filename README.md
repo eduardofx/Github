@@ -58,15 +58,18 @@ Abre o editor
 Ctrl + C (Comando ':wq' para salvar)
 
 Ignore 
+____________________________________________________
 
 > $ vim .gitigonre
 Arquivo linha a linha > .idea
 
 Remover da lista de commit
+____________________________________________________
 
 > $ git reset HEAD teste2.txt
 
 Voltar Versão
+____________________________________________________
 
 Pega o Hash
 > $ git log
@@ -85,6 +88,7 @@ Volta o arquivo e deixa os arquivos que estava trabalhando
 
 
 Branches 
+____________________________________________________
 
 Lista os brench
 > $ git branch
@@ -96,7 +100,8 @@ Voltar para master..  '-b' cria novo brench
 
 > $ git checkout funcionalidade1
 
-Merge e Rebase 	
+Merge e Rebase 
+____________________________________________________
 
 Trás os arquivos para o branch atual
 > $ git merge funcionalidade1
@@ -104,7 +109,8 @@ Trás os arquivos para o branch atual
 Elimina git merge
 >$ git rebase funcionalidade1
 
-GitHub 	
+GitHub 
+____________________________________________________
 
 >$ ssh-keygen
 
