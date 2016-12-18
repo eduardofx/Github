@@ -170,8 +170,11 @@ ____________________________________________________
 > GIT_WORK_TREE=/Users/eduardo/pasta/meusite.com.br git checkout -f
 
 > $ chmod +x post-receive
+
 > $ cd..
+
 > $ mkdir meusite.com.br
+
 > $ git push local master OU git push origin master
 
 
