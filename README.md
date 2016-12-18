@@ -166,7 +166,7 @@ ____________________________________________________
 
 >$ vim post-receive
 
-> #!/bin/sh
+> # #!/bin/sh
 > GIT_WORK_TREE=/Users/eduardo/pasta/meusite.com.br git checkout -f
 
 > $ chmod +x post-receive
