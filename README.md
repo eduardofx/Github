@@ -129,6 +129,50 @@ Subir no Git
 
 
 
+Tag
+____________________________________________________
+
+Cria Tag
+>$ git tag 0.1.0 
+
+Lista tag
+>$ git tag -l
+
+Subir tags
+>$ git push origin master --tags
+
+Conflito
+____________________________________________________
+
+>$ git merge master
+
+
+Bare
+____________________________________________________
+
+Serve apenas como repositório
+>$ git init --bare
+
+>$ git remote add local ssh://localhost/arq.git
+
+>$ git checkout master
+
+>$ git push local master
+
+
+Hook
+____________________________________________________
+
+
+>$ vim post-receive
+
+> #!/bin/sh
+> GIT_WORK_TREE=/Users/eduardo/pasta/meusite.com.br git checkout -f
+
+> $ chmod +x post-receive
+> $ cd..
+> $ mkdir meusite.com.br
+> $ git push local master OU git push origin master
 
 
 
